@@ -1,7 +1,7 @@
 Name:                   libconfig
 Summary:                C/C++ configuration file library
 Version:                1.4.9
-Release:                3%{?dist}
+Release:                5%{?dist}
 License:                LGPLv2+
 Group:                  System Environment/Libraries
 Source0:                http://www.hyperrealm.com/libconfig/libconfig-%{version}.tar.gz
@@ -76,6 +76,12 @@ fi
 %{_infodir}/libconfig.info*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4.9-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.9-4
+- Mass rebuild 2013-12-27
+
 * Fri Jun 21 2013 Pavel Raiskup <praiskup@redhat.com> - 1.4.9-3
 - enable simple upstream test-suite during check phase
 
